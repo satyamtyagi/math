@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 		num1 = atoi(argv[1]);
 		num2 = atoi(argv[3]);
 		opsymb = argv[2][0];
-		printf("%s, %c\n", argv[2], opsymb);
+		printf("%c\n", opsymb);
 		if(opsymb == '+') {
 			result = sum(num1, num2);
 			printf("The sum is %d\n\n", result);
